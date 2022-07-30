@@ -1,0 +1,96 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+body{
+	background-color: #F2F2F2;
+}
+
+.content-center{
+	width: 100%; /* utilizar 100% da largura interna do bloco */
+	max-width: 300px; /* o maximo de largura é 300px */
+	margin: auto;
+	padding: 20px;
+	background-color: white;
+	border-radius: 15%; /* borda do estilo circulo */
+}
+
+.content-center .text-center{
+	text-align: center;
+}
+
+.content-center img{
+	width: 70%;
+}
+
+.content-center form{
+	margin: 20px;
+}
+
+.content-center input,
+.content-center button {
+	width: 100%;
+	padding: 10px 5px;
+	border: none; /* sem nenhuma borda */
+	outline: none; /* ao clicar no input a cor das bordas */
+	/*outline-color: red; cor das bordas ao clicar*/
+}
+
+.content-center input{
+	border-bottom-color: #CCC; /* cor da borda de baixo do input */
+	border-bottom-style: solid; /* estilo da borda de baixo do input */
+	border-bottom-width: 2px; /* altura da borda de baixo do input */
+	margin-bottom: 10px;
+}
+
+.content-center input:focus{
+	border-bottom-color:  #D07335;
+}
+
+.content-center button{
+	background-color: #D07335;
+	color: white;
+	border-radius: 3px;
+}
+
+.content-center button:hover{ /* quando o mouse passar por cima */
+	background-color: #B55B28;
+	cursor: pointer;
+}
+
+.content-center button:active{ /* quando for clicado */
+	background-color: #48d1cc;
+}
+
+header h1{
+	font-size: 2.5em;
+	text-align: center;
+	margin: 50px auto;
+}
+
+header a{
+	color: #666;
+	text-decoration: none;
+}
+
+header a:visited{
+	color: #000;
+}
+
+header a:hover{
+	text-decoration: underline;
+}
+
+header a:focus{
+	color: blue;
+}
+
+header a:active{
+	color: red;
+}
+
+footer{
+	font-size: .8em;
+	text-align: center;
+}
